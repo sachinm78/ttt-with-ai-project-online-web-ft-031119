@@ -18,7 +18,7 @@ class Board
     
   def cells
       cells = []
-      Board.new
+      
   end
     
     
