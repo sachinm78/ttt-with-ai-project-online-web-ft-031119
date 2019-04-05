@@ -33,11 +33,11 @@ class Board
     
     
   def reset!
-        puts "     |    |     "
-        puts " -------------- "
-        puts "     |    |     "
-        puts " -------------- "
-        puts "     |    |     "
+    puts "     |    |     "
+    puts " -------------- "
+    puts "     |    |     "
+    puts " -------------- "
+    puts "     |    |     "
   end
 
 
