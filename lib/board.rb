@@ -17,7 +17,7 @@ class Board
   ]
     
   def cells
-     board.cells = [] 
+     boardlls = [] 
   end
     
     
