@@ -17,7 +17,7 @@ class Board
   ]
     
   def cells
-     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "])
+     board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   end
     
     
@@ -38,7 +38,5 @@ class Board
     puts " -------------- "
     puts "     |    |     "
   end
-
-
 
 end
