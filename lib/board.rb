@@ -1,5 +1,5 @@
 class Board
-
+  attr_accessor :cells
     
     WIN_COMBINATIONS = [
     [0,1,2],
