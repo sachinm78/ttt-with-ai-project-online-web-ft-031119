@@ -2,7 +2,11 @@ class Board
   attr_accessor 
     
   def initialize
-    
+        puts "     |    |     "
+        puts " -------------- "
+        puts "     |    |     "
+        puts " -------------- "
+        puts "     |    |     "
   end
   
     WIN_COMBINATIONS = [
@@ -33,12 +37,7 @@ class Board
     
     
   def reset!
-
-        puts "     |    |     "
-        puts " -------------- "
-        puts "     |    |     "
-        puts " -------------- "
-        puts "     |    |     "
+        Board.new
   end
 
 
