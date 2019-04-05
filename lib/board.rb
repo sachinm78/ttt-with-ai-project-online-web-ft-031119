@@ -1,6 +1,8 @@
 class Board
   attr_accessor :cells
     
+    
+  
     WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
@@ -12,32 +14,29 @@ class Board
     [6,4,2]
   ]
     
-    def cells
+  def cells
       
-    end
+  end
     
     
     
-    def display 
+  def display 
         puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
         puts "-----------"
         puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
         puts "-----------"
         puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
-    end
+  end
     
     
-    def reset!
+  def reset!
 
-       
         puts "     |    |     "
         puts " -------------- "
         puts "     |    |     "
         puts " -------------- "
         puts "     |    |     "
-        
-
-    end
+  end
 
 
 
