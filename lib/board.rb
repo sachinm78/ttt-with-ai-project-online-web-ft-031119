@@ -2,7 +2,7 @@ class Board
   attr_accessor 
     
   def initialize
-     reset!   
+        
   end
   
     WIN_COMBINATIONS = [
