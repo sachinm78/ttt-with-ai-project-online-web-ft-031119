@@ -1,7 +1,9 @@
 class Board
   attr_accessor :cells
     
-    
+  def initialize
+    @cells = cells
+  end
   
     WIN_COMBINATIONS = [
     [0,1,2],
